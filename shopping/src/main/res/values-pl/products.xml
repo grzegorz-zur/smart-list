@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2011-2013 GZapps Grzegorz Żur
+  -->
+
+<resources>
+
+    <!--suppress AndroidLintInconsistentArrays-->
+    <string-array name="sample_products">
+        <item>bagietka</item>
+        <item>banany</item>
+        <item>bułki</item>
+        <item>cebula</item>
+        <item>chipsy</item>
+        <item>chleb</item>
+        <item>ciastka</item>
+        <item>cukier</item>
+        <item>czosnek</item>
+        <item>dżem</item>
+        <item>herbata</item>
+        <item>jabłka</item>
+        <item>jajka</item>
+        <item>jogurt</item>
+        <item>kawa</item>
+        <item>keczup</item>
+        <item>kiełbasa</item>
+        <item>lody</item>
+        <item>makaron</item>
+        <item>marchew</item>
+        <item>margaryna</item>
+        <item>masło</item>
+        <item>mleko</item>
+        <item>musztarda</item>
+        <item>mąka</item>
+        <item>ogórki</item>
+        <item>papryka</item>
+        <item>parówki</item>
+        <item>pietruszka</item>
+        <item>pomidory</item>
+        <item>płatki śniadaniowe</item>
+        <item>ryby</item>
+        <item>ryż</item>
+        <item>rzodkiew</item>
+        <item>sałata</item>
+        <item>schab</item>
+        <item>ser</item>
+        <item>sok</item>
+        <item>szczypior</item>
+        <item>szynka</item>
+        <item>twaróg</item>
+        <item>woda</item>
+        <item>ziemniaki</item>
+        <item>śmietana</item>
+    </string-array>
+
+</resources>

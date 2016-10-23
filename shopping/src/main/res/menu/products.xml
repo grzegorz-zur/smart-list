@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2013 GZapps Grzegorz Żur
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+        >
+
+    <item
+            android:id="@+id/menu_buy"
+            android:title="@string/menu_buy"
+            appcompat:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/menu_enlist"
+            android:title="@string/menu_enlist"
+            appcompat:showAsAction="ifRoom"/>
+    <item
+            android:id="@+id/menu_delist"
+            android:title="@string/menu_delist"/>
+    <item
+            android:id="@+id/menu_quantitize"
+            android:title="@string/menu_quantitize"/>
+    <item
+            android:id="@+id/menu_dequantitize"
+            android:title="@string/menu_dequantitize"/>
+    <item
+            android:id="@+id/menu_rename"
+            android:title="@string/menu_rename"/>
+    <item
+            android:id="@+id/menu_remove"
+            android:title="@string/menu_remove"/>
+
+</menu>

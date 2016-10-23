@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2014 Grzegorz Żur
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="@bool/keep_screen_on_default"
+        android:key="keep_screen_on"
+        android:summaryOn="@string/settings_keep_screen_on_summary_on"
+        android:summaryOff="@string/settings_keep_screen_on_summary_off"
+        android:title="@string/settings_keep_screen_on" />
+
+    <PreferenceCategory android:title="@string/tab_suggestions">
+        <ListPreference
+            android:defaultValue="@string/suggestions_limit_default"
+            android:dialogTitle="@string/settings_suggestions_limit"
+            android:entries="@array/limit_entries"
+            android:entryValues="@array/limit_values"
+            android:key="suggestions_limit"
+            android:summary="@string/settings_suggestions_limit_summary"
+            android:title="@string/settings_suggestions_limit" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/tab_shortages">
+        <ListPreference
+            android:defaultValue="@string/shortages_limit_default"
+            android:dialogTitle="@string/settings_shortages_limit"
+            android:entries="@array/limit_entries"
+            android:entryValues="@array/limit_values"
+            android:key="shortages_limit"
+            android:summary="@string/settings_shortages_limit_summary"
+            android:title="@string/settings_shortages_limit" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/tab_products">
+
+        <CheckBoxPreference
+            android:defaultValue="@bool/products_purge_default"
+            android:key="products_purge"
+            android:summaryOn="@string/settings_products_purge_on"
+            android:summaryOff="@string/settings_products_purge_off"
+            android:title="@string/settings_products_purge" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

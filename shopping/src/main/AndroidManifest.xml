@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2011-2014 Grzegorz Żur
+  -->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gzapps.shopping"
+    android:versionCode="303000"
+    android:versionName="3.3">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:name="com.gzapps.shopping.app.ShoppingApplication"
+        android:allowBackup="true"
+        android:allowClearUserData="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/Theme.AppCompat.Light">
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="XXX" />
+
+        <activity
+            android:name=".app.ShoppingActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".app.SettingsActivity"
+            android:label="@string/activity_settings">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".app.ShoppingActivity" />
+        </activity>
+
+        <service
+            android:name="com.gzapps.shopping.app.ShoppingService"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.gzapps.shopping.app.ShoppingReceiver"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

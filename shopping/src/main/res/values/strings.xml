@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2014 Grzegorz Żur
+  -->
+
+<resources>
+
+    <string name="app_name">Smart List</string>
+    <string name="activity_settings">Smart List Settings</string>
+    <string name="tab_list">List</string>
+    <string name="tab_suggestions">Recommended</string>
+    <string name="tab_shortages">Shortages</string>
+    <string name="tab_products">Products</string>
+    <string name="hint_product_name">product name</string>
+    <string name="menu_un_buy">Withdraw purchase</string>
+    <string name="menu_buy_all">Buy all</string>
+    <string name="menu_clear_list">Clear list</string>
+    <string name="menu_clear_products">Clear products</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="menu_quantitize">Set quantity</string>
+    <string name="menu_dequantitize">Clear quantity</string>
+    <string name="menu_enlist">Add to list</string>
+    <string name="menu_delist">Remove from list</string>
+    <string name="menu_buy">Buy</string>
+    <string name="menu_rename">Change name</string>
+    <string name="menu_remove">Remove</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_create">Create</string>
+    <string name="menu_edit">Edit</string>
+    <string name="dialog_quantity_set">Set</string>
+    <string name="dialog_quantity_increase">Increase</string>
+    <string name="dialog_quantity_decrease">Decrease</string>
+    <string name="dialog_rename_rename">Rename</string>
+    <string name="dialog_about_version">Version %s</string>
+    <string name="dialog_about_copyright">Copyright © 2011–2014 Grzegorz Żur</string>
+    <string name="dialog_about_info">Application can store at most 500 products and analyzes data from last year.</string>
+    <string name="dialog_about_libraries">Application uses <a href="http://commons.apache.org/primitives/">Apache Commons Primitives</a> library released under <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.</string>
+    <string name="dialog_buy_all_text">Do you really want to buy every item on list?</string>
+    <string name="dialog_buy_all_ok">Buy</string>
+    <string name="dialog_clear_list_text">Do you really want to remove every item from list?</string>
+    <string name="dialog_clear_list_ok">Clear</string>
+    <string name="dialog_clear_products_text">Do you really want to remove all products? All I know about your buying habits will be lost!</string>
+    <string name="dialog_clear_products_ok">Clear</string>
+    <string name="dialog_close">Close</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="info_on_list">Already on the list!</string>
+    <string name="info_enlisted">Added to the list!</string>
+    <string name="info_created_enlisted">Added new to the list!</string>
+    <string name="error_exists">Product already exists!</string>
+    <string name="error_exhausted">You already have %d products, I cannot remember more!</string>
+    <string name="error_not_valid">Not a valid name!</string>
+    <string name="error_invalid_number">Not a valid number!</string>
+    <string name="error_loading_restored">Sorry, loading shopping data failed, it was restored from backup copy! Please check if everything is on list.</string>
+    <string name="error_loading_created">Sorry, loading shopping data failed, it was reset to default values!</string>
+    <string name="error_saving">Sorry, saving shopping data failed! Please check if you have enough free space for application data.</string>
+    <string name="toast_not_found">Not found: %s!</string>
+    <string name="toast_created">I created sample products for you!</string>
+    <string name="icon_logo">Application icon</string>
+    <string name="icon_drag">Rearrange</string>
+    <string name="settings_keep_screen_on">Keep screen on</string>
+    <string name="settings_keep_screen_on_summary_on">Screen is always on</string>
+    <string name="settings_keep_screen_on_summary_off">Screen may go off</string>
+    <string name="settings_suggestions_limit">Supply limit</string>
+    <string name="settings_suggestions_limit_summary">Show product on recommended list if supply is below minimal limit</string>
+    <string name="settings_shortages_limit">Supply limit</string>
+    <string name="settings_shortages_limit_summary">Show product on shortages list if supply is below minimal limit</string>
+    <string name="settings_products_purge">Remove unused</string>
+    <string name="settings_products_purge_on">Unused products will be removed</string>
+    <string name="settings_products_purge_off">Unused products will stay</string>
+
+    <plurals name="selected">
+        <item quantity="one">%d selected</item>
+        <item quantity="few">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d week</item>
+        <item quantity="few">%d weeks</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="few">%d days</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+
+</resources>

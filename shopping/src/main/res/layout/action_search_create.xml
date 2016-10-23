@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2011-2014 Grzegorz Żur
+  -->
+
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_search_create_edit_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/hint_product_name"
+    android:inputType="text|textAutoComplete|textAutoCorrect"
+    android:maxLength="@integer/length_name"
+    android:singleLine="true" />

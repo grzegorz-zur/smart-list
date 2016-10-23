@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2011-2013 GZapps Grzegorz Żur
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<ImageView
+			android:id="@+id/about_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			android:layout_marginRight="5dp"
+			android:contentDescription="@string/icon_logo"
+			android:src="@drawable/ic_launcher" />
+
+		<TextView
+			android:id="@+id/about_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_toRightOf="@id/about_icon"
+			android:text="@string/app_name"
+			android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<TextView
+			android:id="@+id/about_version"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/about_name"
+			android:layout_toRightOf="@id/about_icon"
+			android:text="@string/dialog_about_version"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+
+		<TextView
+			android:id="@+id/about_copyright"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/about_version"
+			android:layout_toRightOf="@id/about_icon"
+			android:text="@string/dialog_about_copyright"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+
+		<TextView
+			android:id="@+id/about_info"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@id/about_copyright"
+			android:layout_marginTop="5dp"
+			android:text="@string/dialog_about_info"
+			android:textAppearance="?android:attr/textAppearanceMedium" />
+
+		<TextView
+			android:id="@+id/about_libraries"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@id/about_info"
+			android:layout_marginTop="5dp"
+			android:linksClickable="true"
+			android:text="@string/dialog_about_libraries"
+			android:textAppearance="?android:attr/textAppearanceSmall" />
+	</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  Copyright (c) 2011-2013 GZapps Grzegorz Żur
+  -->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          style="?android:attr/listSeparatorTextViewStyle"
+          android:id="@+id/products_item_divider"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+	/>

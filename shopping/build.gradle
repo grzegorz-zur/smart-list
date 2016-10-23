@@ -1,0 +1,81 @@
+/*
+ * Copyright (c) 2011-2014 Grzegorz Żur
+ */
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.9.+'
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.11'
+}
+
+tasks.whenTaskAdded { task ->
+    if (task.name == 'validateReleaseSigning')
+        task.dependsOn keystoreInfo
+}
+
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.0.3'
+
+    defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 19
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    signingConfigs {
+        release {
+            release {
+                storeFile file('release.keystore')
+                storePassword ''
+                keyAlias ''
+                keyPassword ''
+            }
+        }
+        buildTypes {
+            release {
+                debuggable false
+                jniDebugBuild false
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+}
+
+dependencies {
+    compile 'commons-primitives:commons-primitives:1.0'
+    compile 'com.android.support:appcompat-v7:19.0.+'
+}
+
+task keystoreInfo << {
+    def console = System.console()
+    if (console == null)
+        throw new IllegalStateException('no console available, use --no-daemon flag')
+
+    def storeFile = console.readLine('Keystore file: ')
+    def storePassword = console.readPassword('Keystore password: ')
+    def keyAlias = console.readLine('Key alias: ')
+    def keyPassword = console.readPassword('Key password: ')
+
+    android.signingConfigs.release.storeFile = file(storeFile)
+    android.signingConfigs.release.storePassword = new String(storePassword)
+    android.signingConfigs.release.keyAlias = keyAlias
+    android.signingConfigs.release.keyPassword = new String(keyPassword)
+}

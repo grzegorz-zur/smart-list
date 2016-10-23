@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2013 GZapps Grzegorz Żur
+  -->
+
+<com.gzapps.shopping.app.widget.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal"
+    android:background="@drawable/item_product">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="8dp"
+        android:contentDescription="@string/icon_drag"
+        android:src="@drawable/ic_drag" />
+
+    <TextView
+        android:id="@+id/list_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:gravity="left|center_vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/list_item_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="0"
+        android:gravity="right|center_vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/list_item_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="0"
+        android:gravity="right|center_vertical"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</com.gzapps.shopping.app.widget.CheckableLinearLayout>

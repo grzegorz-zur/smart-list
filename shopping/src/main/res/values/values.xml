@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2014 Grzegorz Żur
+  -->
+
+<!--suppress AndroidLintMissingTranslation -->
+<resources>
+
+    <integer name="length_name">32</integer>
+    <integer name="length_quantity">5</integer>
+    <integer name="length_unit">5</integer>
+
+    <string-array name="limit_entries">
+        <item>0%</item>
+        <item>10%</item>
+        <item>20%</item>
+        <item>30%</item>
+        <item>40%</item>
+        <item>50%</item>
+        <item>60%</item>
+        <item>70%</item>
+        <item>80%</item>
+        <item>90%</item>
+        <item>100%</item>
+    </string-array>
+
+    <string-array name="limit_values">
+        <item>0</item>
+        <item>0.1</item>
+        <item>0.2</item>
+        <item>0.3</item>
+        <item>0.4</item>
+        <item>0.5</item>
+        <item>0.6</item>
+        <item>0.7</item>
+        <item>0.8</item>
+        <item>0.9</item>
+        <item>1</item>
+    </string-array>
+
+    <bool name="keep_screen_on_default">false</bool>
+
+    <string name="suggestions_limit_default">0.5</string>
+
+    <string name="shortages_limit_default">0.3</string>
+
+    <bool name="products_purge_default">false</bool>
+
+</resources>

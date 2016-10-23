@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2014 Grzegorz Żur
+  -->
+
+<!--suppress XmlUnboundNsPrefix -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_action_create"
+        android:icon="@drawable/ic_create"
+        android:title="@string/menu_create"
+        appcompat:showAsAction="always" />
+
+</menu>

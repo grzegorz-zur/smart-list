@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2014 Grzegorz Żur
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_edit"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/menu_edit"
+        appcompat:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_un_buy"
+        android:title="@string/menu_un_buy"
+        appcompat:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_buy_all"
+        android:title="@string/menu_buy_all"
+        appcompat:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_clear_list"
+        android:title="@string/menu_clear_list"
+        appcompat:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_clear_products"
+        android:title="@string/menu_clear_products"
+        appcompat:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        appcompat:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/menu_about"
+        appcompat:showAsAction="never" />
+
+</menu>

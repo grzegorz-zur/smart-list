@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2014 Grzegorz Żur
+  -->
+
+<resources>
+
+    <string name="app_name">Smart List</string>
+    <string name="activity_settings">Ustawienia Smart List</string>
+    <string name="tab_list">Lista</string>
+    <string name="tab_suggestions">Polecane</string>
+    <string name="tab_shortages">Braki</string>
+    <string name="tab_products">Produkty</string>
+    <string name="hint_product_name">nazwa produktu</string>
+    <string name="menu_un_buy">Wycofaj zakup</string>
+    <string name="menu_buy_all">Kup wszystko</string>
+    <string name="menu_clear_list">Wyczyść listę</string>
+    <string name="menu_clear_products">Usuń produkty</string>
+    <string name="menu_settings">Ustawienia</string>
+    <string name="menu_about">O aplikacji</string>
+    <string name="menu_quantitize">Ustaw ilość</string>
+    <string name="menu_dequantitize">Wyczyść ilość</string>
+    <string name="menu_enlist">Dodaj do listy</string>
+    <string name="menu_delist">Usuń z listy</string>
+    <string name="menu_buy">Kup</string>
+    <string name="menu_rename">Zmień nazwę</string>
+    <string name="menu_remove">Usuń</string>
+    <string name="menu_search">Szukaj</string>
+    <string name="menu_create">Dodaj</string>
+    <string name="menu_edit">Zmień</string>
+    <string name="dialog_quantity_set">Ustaw</string>
+    <string name="dialog_quantity_increase">Zwiększ</string>
+    <string name="dialog_quantity_decrease">Zmniejsz</string>
+    <string name="dialog_rename_rename">Zmień</string>
+    <string name="dialog_about_version">Wersja %s</string>
+    <string name="dialog_about_copyright">Copyright © 2011–2014 Grzegorz Żur</string>
+    <string name="dialog_about_info">Aplikacja może przechowywać maksymalnie 500 produktów analizując zakupy z ostatniego roku.</string>
+    <string name="dialog_about_libraries">Aplikacja używa biblioteki <a href="http://commons.apache.org/primitives/">Apache Commons Primitives</a> wydanej na licencji <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a>.</string>
+    <string name="dialog_buy_all_text">Czy chcesz kupić wszystkie produkty na liście?</string>
+    <string name="dialog_buy_all_ok">Kup</string>
+    <string name="dialog_clear_list_text">Czy chcesz usunąć wszystkie produkty z listy?</string>
+    <string name="dialog_clear_list_ok">Usuń</string>
+    <string name="dialog_clear_products_text">Czy chcesz usunąć wszystkie produkty? Zapomnę wszystko co wiem o Twoich zakupach!</string>
+    <string name="dialog_clear_products_ok">Usuń</string>
+    <string name="dialog_close">Zamknij</string>
+    <string name="dialog_cancel">Anuluj</string>
+    <string name="info_on_list">Już jest na liście!</string>
+    <string name="info_enlisted">Dodałem do listy!</string>
+    <string name="info_created_enlisted">Dodałem nowy do listy!</string>
+    <string name="error_exists">Produkt już istnieje!</string>
+    <string name="error_exhausted">Masz już %d produktów, nie zapamiętam więcej!</string>
+    <string name="error_not_valid">Niepoprawna nazwa!</string>
+    <string name="error_invalid_number">Niepoprawna liczba!</string>
+    <string name="error_loading_restored">Przepraszam, nie udało się załadować danych listy! Przywróciłem kopię zapasową! Sprawdź czy wszystko na niej jest.</string>
+    <string name="error_loading_created">Przepraszam, nie udało się załadować danych listy! Przywróciłem domyślną listę produktów!</string>
+    <string name="error_saving">Przepraszam, nie udało się zapisać danych! Proszę sprawdź czy jest wystarczająca ilość miejsca dla danych tej aplikacji!</string>
+    <string name="toast_not_found">Nie znalazłem: %s!</string>
+    <string name="toast_created">Utworzyłem przykładową listę produktów!</string>
+    <string name="icon_logo">Ikona aplikacji</string>
+    <string name="icon_drag">Zmień kolejność</string>
+    <string name="settings_keep_screen_on">Nie wyłączaj ekranu</string>
+    <string name="settings_keep_screen_on_summary_on">Ekran zawsze włączony</string>
+    <string name="settings_keep_screen_on_summary_off">Ekran może się wyłączyć</string>
+    <string name="settings_suggestions_limit">Limit zapasu</string>
+    <string name="settings_suggestions_limit_summary">Pokazuj produkt wśród polecanych gdy jego zapas jest poniżej wartości limitu</string>
+    <string name="settings_shortages_limit">Limit zapasu</string>
+    <string name="settings_shortages_limit_summary">Pokazuj produkt wśród braków gdy jego zapas jest poniżej wartości limitu</string>
+    <string name="settings_products_purge">Usuń nieużywane</string>
+    <string name="settings_products_purge_on">Nieużywane produkty będą usuwane</string>
+    <string name="settings_products_purge_off">Nieużywane produkty pozostaną</string>
+
+    <plurals name="selected">
+        <item quantity="one">%d zaznaczony</item>
+        <item quantity="few">%d zaznaczone</item>
+        <item quantity="many">%d zaznaczonych</item>
+        <item quantity="other">%d zaznaczonych</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d tydzień</item>
+        <item quantity="few">%d tygodnie</item>
+        <item quantity="many">%d tygodni</item>
+        <item quantity="other">%d tygodni</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+        <item quantity="other">%d dni</item>
+    </plurals>
+
+</resources>

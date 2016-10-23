@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2014 Grzegorz Żur
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/rename_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text|textAutoComplete|textAutoCorrect"
+            android:maxLength="@integer/length_name"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceMedium">
+
+            <requestFocus />
+        </EditText>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="?android:attr/dividerVertical" />
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="true"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip"
+            android:paddingTop="0dip">
+
+            <Button
+                android:id="@+id/rename_cancel"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dialog_cancel" />
+
+            <Button
+                android:id="@+id/rename_ok"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dialog_rename_rename" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

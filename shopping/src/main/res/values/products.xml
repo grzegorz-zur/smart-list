@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (c) 2011-2013 GZapps Grzegorz Żur
+  -->
+
+<!--suppress AndroidLintInconsistentArrays-->
+<resources>
+
+	<string-array name="sample_products">
+		<item>apples</item>
+		<item>beans</item>
+		<item>beef</item>
+		<item>bread</item>
+		<item>butter</item>
+		<item>carrots</item>
+		<item>cereal</item>
+		<item>cheese</item>
+		<item>chicken</item>
+		<item>coffee</item>
+		<item>corn</item>
+		<item>eggs</item>
+		<item>fish</item>
+		<item>ice cream</item>
+		<item>jam</item>
+		<item>lettuce</item>
+		<item>milk</item>
+		<item>muffins</item>
+		<item>pasta</item>
+		<item>pepper</item>
+		<item>pork</item>
+		<item>rice</item>
+		<item>rolls</item>
+		<item>sausages</item>
+		<item>soda</item>
+		<item>tomatoes</item>
+		<item>water</item>
+	</string-array>
+
+</resources>

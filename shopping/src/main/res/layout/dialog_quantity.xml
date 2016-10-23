@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2011-2014 Grzegorz Żur
+  -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/quantity_increase"
+            android:layout_width="256dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/dialog_quantity_increase"
+            android:src="@android:drawable/arrow_up_float" />
+
+        <LinearLayout
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/quantity_quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:inputType="numberDecimal"
+                android:maxLength="@integer/length_quantity"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium">
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/quantity_unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textNoSuggestions"
+                android:maxLength="@integer/length_unit"
+                android:selectAllOnFocus="true"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/quantity_decrease"
+            android:layout_width="256dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/dialog_quantity_decrease"
+            android:src="@android:drawable/arrow_down_float" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:measureWithLargestChild="true"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip"
+            android:paddingTop="0dip">
+
+            <Button
+                android:id="@+id/quantity_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dialog_quantity_set" />
+
+            <Button
+                android:id="@+id/quantity_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dialog_cancel" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
